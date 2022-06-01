@@ -25,7 +25,7 @@ const Home = ({name,setName,fetchQuestions}) => {
   return (
     <div className="content">
       <div className="settings">
-        <span style={{ fontSize: 30 }}>Quiz Settings</span>
+        {/* <span style={{ fontSize: 30 }}>Quiz Settings</span> */}
         <div className="settings__select">
         {error && <ErrorMessage>Please Fill all the feilds</ErrorMessage>}
           <TextField
